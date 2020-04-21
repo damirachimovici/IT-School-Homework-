@@ -1,0 +1,35 @@
+
+1.
+
+It will print 1, 2, 3 (because of the console.logs)
+              1, undefined, 3, 2 (undefined, because the console.log is placed before the variable was defined !!into the function) 
+              1, 2, undefined, 3 (undefined, because the console.log is also placed before the variable was defined !!into the function)
+
+2.
+
+"globalThis" string + globalThis variable
+"this inside" string + myObj object 
+false boolean, because globalThis is defined outside the scope 
+true boolean, because myObj is myObj 
+
+
+3.
+
+Undefined, because: a) (if we want to log the "inside" string) Because, again (iswydt), the console.log is placed before the definition of the var
+                    b) (if we want to log the "outside" string) Because, the var text is defined again, inside the function
+
+4. 
+
+Sarah is 22 and lives in San Francisco
+
+
+"Sarah", because the getPersonInfo() function, has modified const name's value. 
+The same thing with the const age value (21->22)
+
+Const city remains the same.
+
+
+
+
+
+
